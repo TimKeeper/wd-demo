@@ -247,7 +247,6 @@ export default {
             },
           }
 
-          // 根据画面比例修改组件样式比例 https://github.com/woai3c/visual-drag-demo/issues/91
           changeComponentSizeWithScale(component)
 
           this.$store.commit('addComponent', { component })

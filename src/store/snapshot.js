@@ -2,7 +2,6 @@ import store from './index'
 import { deepCopy } from '@/utils/utils'
 import changeComponentsSizeWithScale from '@/utils/changeComponentsSizeWithScale'
 
-// 设置画布默认数据 https://github.com/woai3c/visual-drag-demo/issues/92
 let defaultcomponentData = []
 function getDefaultcomponentData() {
   return JSON.parse(JSON.stringify(defaultcomponentData))
